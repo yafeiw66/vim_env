@@ -1,0 +1,5 @@
+yum remove --assumeyes vim-minimal
+yum install --assumeyes vim-enhanced
+(backup the sudo file) 
+yum install --assumeyes sudo
+vim --version |grep -i version
